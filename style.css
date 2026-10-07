@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(rgb(243, 214, 249), rgb(244, 75, 179));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sidenav {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("https://i1.pickpik.com/photos/334/851/736/cherry-blossom-spring-flowers-tree-preview.jpg");
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  background-color: rgba(165, 0, 116, 0.865);
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 10%;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+
+p{
+    text-align: center;
+}
+
+#Pagetop{
+
+    color: black;
+    text-align: center;
+    background-image: url("https://assets.cntraveller.in/photos/60b9f49adb1b6a2d639cedaa/1:1/w_900,h_900,c_limit/Japan-Cherry-Blossoms%252C-123rf.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-self: center;
+    font-size: 80px;
+}
+
+#WelcomeMsg{
+
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#LongPara{
+
+    text-align: center;
+}
+
+.isometra-regular {
+  font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
