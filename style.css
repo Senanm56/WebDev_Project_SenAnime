@@ -50,11 +50,14 @@ p{
 
     color: black;
     text-align: center;
-    background-color: rgb(241, 32, 195);
+    background-color: pink;
     background-size: cover;
     background-position: center;
     justify-self: center;
     font-size: 80px;
+    animation-name: NameAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 #WelcomeMsg{
@@ -75,3 +78,29 @@ p{
   font-style: normal;
 }
 
+
+@media (max-width: 600px) {
+  .card {grid-area: 1 / span 6; width: 100% !important;}
+}
+
+@media (max-width: 1024px) {
+  .card {grid-area: 1 / span 6; text-align: center;}
+}
+
+@keyframes NameAnimation
+{
+  0%   {background-color: pink;}
+  25%  {background-color: white;}
+  50%  {background-color: pink;}
+ 
+
+}
+
+.Shopping_cart
+{
+  display: flex;
+  background-color: #7b0645;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
