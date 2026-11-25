@@ -105,3 +105,8 @@ p{
   height: auto;
   display: inline-block;
 }
+
+.images
+{
+  align-self: auto
+}
